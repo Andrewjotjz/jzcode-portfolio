@@ -6,5 +6,282 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #ebe7e5
 }
 
+nav {
+    background: #ffffff;
+    position: fixed;                                  
+    top: 0;
+    left: 0;
+    height: 7%;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(146, 161, 176, 0.3);  
+}
+
+.navbar .logo{
+  float: left;
+  font-family: 'Trebuchet MS';
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  margin: 6px 50px;
+  padding: 10px 10px;
+}
+
+.navbar .logo:hover{
+  border: 3px dashed #000000;            
+  padding: 7px 8px;
+  transition: 1s; 
+}
+
+nav ul {
+  list-style: none;
+  text-align: right;
+  margin: 12px 30px;
+  padding: 10px 30px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a{
+  text-decoration: none;
+  padding: 0px 10px;
+  margin: 0px 10px;
+  font-size: 18px;
+  color: #0e2431;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: 0.2s;
+}
+
+nav ul li a:hover{
+  color: #475857;
+  border-bottom: 2.5px solid #475857;
+}
+
+.home {
+  margin-top: 65px;
+}
+
+.home-column {
+  float: left;
+  width: 46%;
+  margin: 0px 1%;
+  padding: 0px 1%;
+  margin-top: 250px;
+}
+
+.home-column h1 span{
+  font-family: 'Roboto', monospace;
+  color: #363a3d;
+  font-weight: lighter;
+  font-size: 50px;
+  padding: 0px;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #333;
+  animation: typing 2s steps(40, end), blink-caret 0.5s step-end infinite;
+  z-index: 1;
+  position: relative;
+}
+
+.home-column h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  color: #0e2431;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 18%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+      border-color: transparent;
+  }
+  50% {
+      border-color: #333;
+  }
+}
+
+main  p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: #0e2431;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-left: 0px;
+}
+
+main  p span{
+  color: #F24822;
+  text-shadow: 1px 1px 3px #db7862;
+}
+
+main a{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #bc8f8f;
+  border: 8px solid #bc8f8f;
+  box-shadow: 2px 2px 6px #bc8f8f;
+  display: inline-block;
+  padding: 9px 28px;
+  border-radius: 36px;
+  text-decoration: none;
+  letter-spacing: 0.8px;
+  font-size: 24px;
+}
+
+main a:hover {
+  box-shadow: 4px 4px 8px #622b2b;
+  transition: 0.6s; 
+}
+
+.home-column img {
+  border-radius: 360px;
+}
+
+.about {
+  margin-top: 65px;
+}
+
+.about h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #0e2431;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-top: 100px;
+}
+
+.about-column {
+  float: left;
+  width: 46%;
+  margin: 0px 1%;
+  padding: 0px 1%;
+  margin-top: 170px;
+}
+
+.about-column h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  color: #0e2431;
+  font-weight: 600;
+  margin: 1px 0px;
+  padding: 1px 0px;
+  text-align: left;
+}
+
+.about-column h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #F24822;
+  text-shadow: 1px 1px 3px #db7862;
+  margin: 1px 0px;
+  padding: 1px 0px;
+  text-align: left;
+}
+
+.about-column p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #0e2431;
+  text-shadow: 0.5px 0.5px 1px #808080;
+  letter-spacing: 0.75px;
+  line-height: 20px;
+  margin: 2px 0px;
+  padding: 1px 0px;
+  text-align: justify;
+}
+
+
+.about-icons{
+  list-style: none;
+  margin: 10px 0px;
+  padding: 10px 0px;
+}
+
+.about-icons a {
+  text-decoration: none;
+  font-size: 50px;
+  padding: 10px;
+}
+
+.about-icons .icon-dev {
+  color: rgb(0, 0, 0);
+}
+
+.about-icons .icon-github {
+  color: #24292e;
+}
+
+.about-icons .icon-linkedin {
+  color:  #0072b1;
+}
+
+.about-icons .icon-facebook {
+  color:  #3b5998;
+}
+
+.about-icons .icon-instagram {
+  color: #dd2a7b;
+}
+
+.about-icons .icon-github:hover {
+  font-size: 45px;
+  transition: 0.6s; 
+}
+
+.about-icons .icon-linkedin:hover {
+  font-size: 45px;
+  transition: 0.6s; 
+}
+
+.about-icons .icon-facebook:hover {
+  font-size: 45px;
+  transition: 0.6s; 
+}
+
+.about-icons .icon-instagram:hover {
+  font-size: 45px;
+  transition: 0.6s; 
+}
+
+.about-icons .icon-dev:hover {
+  font-size: 45px;
+  transition: 0.6s; 
+}
+
+.icon-resume {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.8px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #bc8f8f;
+  border: 8px solid #bc8f8f;
+  box-shadow: 2px 2px 6px #bc8f8f;
+  padding: 8px 26px;
+  border-radius: 36px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.icon-resume:hover {
+  box-shadow: 4px 4px 8px #622b2b;
+  transition: 0.6s; 
+}

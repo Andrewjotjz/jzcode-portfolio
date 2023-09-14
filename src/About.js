@@ -16,10 +16,10 @@ const About = () => {
     return (
         <div className="about">
             <h1>About Me</h1>
-            <div className="about-left-column">
+            <div className="about-column slider">
                 <ProfilePicSlider images={images}/>
             </div>
-            <div className="about-right-column">
+            <div className="about-column">
                 <h2>I'm Andrew Jot</h2>
                 <h3>Full Stack Developer</h3>
                 <p>I am a Full-Stack developer based in Melbourne, Australia.  
@@ -32,17 +32,18 @@ const About = () => {
                 on a wide array of projects, from career portfolio to inventory management systems. 
                 I'm eager to contribute my ever-growing skills to real-world projects.</p>
                 <p>Let's work together to bring your digital visions to life!</p>
+
+                <div className='about-icons'>
+                    <a className="icon-github" href='https://github.com/Andrewjotjz/Andrewjotjz'><FaGithub /></a>
+                    <a className="icon-linkedin" href='https://www.linkedin.com/in/andrew-jot-36b48b134/'><FaLinkedin /></a>
+                    <a className="icon-facebook" href='https://www.facebook.com/andrew.jotjz/'><FaFacebook /></a>
+                    <a className="icon-instagram" href='https://www.instagram.com/andrewjotjz/'><FaSquareInstagram /></a>
+                    <a className="icon-dev" href='https://dev.to/andrewjotjz'><FaDev /></a>
+                </div>
+                <a className="icon-resume" href='https://drive.google.com/file/d/10vMeBdt9ehsRfjgpjMpFH4b97Pqj4qb7/view?usp=sharing'>Résumé</a>
             </div>
-            <div className='about-bottom-right-column'>
-                <ul>
-                    <li><a className="icon-dev" href='https://dev.to/andrewjotjz'><FaDev /></a></li>
-                    <li><a className="icon-github" href='https://github.com/Andrewjotjz/Andrewjotjz'><FaGithub /></a></li>
-                    <li><a className="icon-linkedin" href='https://www.linkedin.com/in/andrew-jot-36b48b134/'><FaLinkedin /></a></li>
-                    <li><a className="icon-facebook" href='https://www.facebook.com/andrew.jotjz/'><FaFacebook /></a></li>
-                    <li><a className="icon-instagram" href='https://www.instagram.com/andrewjotjz/'><FaSquareInstagram /></a></li>
-                    <li><a className="icon-resume" href='https://drive.google.com/file/d/10vMeBdt9ehsRfjgpjMpFH4b97Pqj4qb7/view?usp=sharing'>Résumé</a></li>
-                </ul>
-            </div>
+            
+            
         </div>
     );
 }

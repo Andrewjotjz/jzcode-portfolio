@@ -6,7 +6,7 @@ const Home = () => {
 
     const [text, setText] = useState('');
     const originalText = 'hello, world!';
-    const typingSpeed = 100; // milliseconds per character
+    const typingSpeed = 100; // milliseconds per character a/IPVafIdB
 
     useEffect(() => {
         let currentIndex = 0;
@@ -28,12 +28,12 @@ const Home = () => {
 
     return (
         <main className="home">
-            <div className="home-left-column">
+            <div className="home-column">
                 <h1><span className="typing-animation">{text}</span><br/>I'm Andrew Jot</h1>
                 <p>I am a <span>Full Stack Developer</span></p>
                 <Link to="/about">About Me</Link>
             </div>
-            <div className="home-right-column">
+            <div className="home-column">
                 <img src={profilePic} alt="profile" />
             </div>
         </main>
