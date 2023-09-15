@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import Home from './Home';
 import About from './About';
 import Contact from './Contact';
+import Portfolio from './Portfolio';
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
             </Route>
             <Route path="/about">
               <About />
+            </Route>
+            <Route path="/portfolio">
+              <Portfolio />
             </Route>
             <Route path="/contact">
               <Contact />

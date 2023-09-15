@@ -95,7 +95,8 @@ nav ul li a:hover{
   color: #0e2431;
   font-weight: 600;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 0px; 
+  text-shadow: 1px 1px 1px #0e2431;
 }
 
 @keyframes typing {
@@ -124,7 +125,8 @@ main  p {
   font-weight: 600;
   margin-top: 10px;
   margin-bottom: 15px;
-  margin-left: 0px;
+  margin-left: 35px;
+  text-shadow: 0.5px 0.5px 1px #0e2431;
 }
 
 main  p span{
@@ -145,6 +147,7 @@ main a{
   text-decoration: none;
   letter-spacing: 0.8px;
   font-size: 24px;
+  text-shadow: 0.5px 0.5px 1px #e2dede;
 }
 
 main a:hover {
@@ -166,6 +169,7 @@ main a:hover {
   font-weight: 600;
   letter-spacing: 0.5px;
   margin-top: 100px;
+  text-shadow: 1px 1px 1px #0e2431;
 }
 
 .about-column {
@@ -173,7 +177,7 @@ main a:hover {
   width: 46%;
   margin: 0px 1%;
   padding: 0px 1%;
-  margin-top: 170px;
+  margin-top: 100px;
 }
 
 .about-column h2 {
@@ -184,6 +188,7 @@ main a:hover {
   margin: 1px 0px;
   padding: 1px 0px;
   text-align: left;
+  text-shadow: 0.5px 0.5px 1px #0e2431;
 }
 
 .about-column h3 {
@@ -279,9 +284,145 @@ main a:hover {
   border-radius: 36px;
   text-decoration: none;
   font-size: 24px;
+  text-shadow: 0.5px 0.5px 1px #e2dede;
 }
 
 .icon-resume:hover {
   box-shadow: 4px 4px 8px #622b2b;
+  transition: 0.6s; 
+}
+
+.portfolio {
+  margin-top: 65px;
+}
+
+.portfolio h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #0e2431;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-top: 100px;
+  text-shadow: 1px 1px 1px #0e2431;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  grid-template-rows: repeat(2, 1fr);    /* Two rows */
+  gap: 10px;                             /* Gap between grid items */
+  width: 700px;                          /* Adjust the width as needed */
+  margin: 0 auto;           
+}
+
+.grid-item {
+  padding: 10px;
+  text-align: center;
+  box-shadow: 2px 2px 5px #e2dede;
+}
+
+.item-content{
+  position: relative;
+}
+
+.item-content img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.item-content label{
+  position: absolute; /* Position labels relative to their container */
+  bottom: 5px; /* Adjust the position as needed */
+  left: 0;
+  right: 0;
+  text-align: center; /* Center the label text */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: #fff; /* Text color */
+  padding: 5px; /* Adjust padding as needed */
+}
+
+
+
+
+
+
+
+
+
+.contact {
+  margin-top: 65px;
+}
+
+.contact h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #0e2431;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-top: 100px;
+  text-shadow: 1px 1px 1px #0e2431;
+}
+
+.contact-form-header {
+  text-align: left;
+  margin: 0px 50px;
+  padding: 0px 50px;
+  margin-top: 35px;
+  padding-top: 35px;
+}
+
+.contact-form-header h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: #0e2431;
+  font-weight: 600;
+  line-height: 30px;
+  margin: 20px 0px;
+  text-shadow: 0.5px 0.5px 1px #0e2431;
+}
+
+.contact-form{
+  margin: 0px 100px;
+  padding: 35px 35px;
+  border-radius: 40px;
+  width: 50%;
+  background-color: #FFDAA5;
+  box-shadow: 8px 8px 8px #f5cc94;
+}
+
+.contact-form input, .contact-form textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  padding: 10px 10px;
+  border-radius: 15px;
+}
+.contact-form input{
+  margin: 10px 1%;
+  width: 48%;
+  text-shadow: 0.5px 0.5px 1px #a3a2a2;
+}
+
+
+.contact-form textarea {
+  margin: 10px 1%;
+  width: 98%;
+  text-shadow: 0.5px 0.5px 1px #a3a2a2;
+}
+
+.contact button {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #bc8f8f;
+  border: 8px solid #bc8f8f;
+  box-shadow: 2px 2px 6px #bc8f8f;
+  padding: 6px 24px;
+  border-radius: 36px;
+  letter-spacing: 0.8px;
+  text-shadow: 0.5px 0.5px 1px #e2dede;
+}
+.contact button:hover {
+  box-shadow: 2px 2px 6px #622b2b;
   transition: 0.6s; 
 }

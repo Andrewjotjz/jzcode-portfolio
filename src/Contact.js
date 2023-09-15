@@ -9,8 +9,8 @@ const Contact = () => {
             <form className="contact-form">
                 <div className="contact-form-top">
                     <input type="text" name="name" placeholder="Name" required></input>
-                    <input type="email" name="email" placeholder="Email (Optional)"></input>
-                    <input type="tel" name="phone" placeholder="Phone (Optional)"></input>
+                    <input type="email" name="email" placeholder="Email (optional)"></input>
+                    <input type="tel" name="phone" placeholder="Phone (optional)"></input>
                     <input type="text" name="company" placeholder="Company (optional)"></input>
                 </div>
                 <div className="contact-form-bottom">
