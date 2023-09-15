@@ -14,7 +14,7 @@ nav {
     position: fixed;                                  
     top: 0;
     left: 0;
-    height: 7%;
+    height: 64px;
     width: 100%;
     box-shadow: 0 2px 4px rgba(146, 161, 176, 0.3);  
 }
@@ -308,10 +308,10 @@ main a:hover {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two columns */
-  grid-template-rows: repeat(2, 1fr);    /* Two rows */
-  gap: 10px;                             /* Gap between grid items */
-  width: 700px;                          /* Adjust the width as needed */
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  width: 700px; 
   margin: 0 auto;           
 }
 
@@ -331,21 +331,15 @@ main a:hover {
 }
 
 .item-content label{
-  position: absolute; /* Position labels relative to their container */
-  bottom: 5px; /* Adjust the position as needed */
+  position: absolute;
+  bottom: 5px;
   left: 0;
   right: 0;
-  text-align: center; /* Center the label text */
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-  color: #fff; /* Text color */
-  padding: 5px; /* Adjust padding as needed */
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 5px;
 }
-
-
-
-
-
-
 
 
 
@@ -425,4 +419,363 @@ main a:hover {
 .contact button:hover {
   box-shadow: 2px 2px 6px #622b2b;
   transition: 0.6s; 
+}
+
+@media screen and (max-width:953px) {
+  .about h1 {
+    font-size: 20px;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    width: auto;
+  }
+
+  .about-column.slider {
+    width: auto;
+    height: auto;
+    margin: auto;
+  }
+  .image-slide{
+    width: 250px;
+    height: 250px;
+  }
+
+  .about-column{
+    width: auto;
+    margin: 0px;
+  }
+  .about-column h2 {
+    font-size: 30px;
+  }
+
+  .about-column h3 {
+    font-size: 20px;
+  }
+
+  .icon-resume {
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    padding: 5px 20px;
+  }
+}
+
+@media screen and (max-width:912px) {
+  .home-column {
+    width: auto;
+    margin-top: 100px;
+  }
+
+  .navbar .logo{
+    margin: 6px 8px;
+    padding: 10px 5px;
+  }
+  nav ul {
+    margin: 10px 6px;
+    padding: 10px 6px;
+    text-align: right;
+  }
+
+  nav ul li a{
+  padding: 0px 3px;
+  margin: 0px 3px;
+  }
+
+  .about h1 {
+    font-size: 30px;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    width: auto;
+  }
+
+  .about-column.slider {
+    width: auto;
+    height: auto;
+    margin: auto;
+  }
+  .image-slide{
+    width: 250px;
+    height: 250px;
+  }
+
+  .about-column{
+    width: auto;
+    margin: 0px;
+  }
+  .about-column h2 {
+    font-size: 30px;
+  }
+
+  .about-column h3 {
+    font-size: 20px;
+  }
+
+  .icon-resume {
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    padding: 5px 20px;
+  }
+
+  .contact h1 {
+    font-size: 30px;
+  }
+
+  .contact-form-header h2 {
+    font-size: 30px;
+  }
+
+  .contact-form{
+    margin: 0px 50px;
+    padding: 16px 16px;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width:540px) {
+  .home-column {
+    width: auto;
+    margin-top: 130px;
+  }
+
+  .navbar .logo{
+    margin: 6px 5px;
+    padding: 10px 1px;
+  }
+  nav ul {
+    margin: 10px 1px;
+    padding: 10px 1px;
+    text-align: left;
+  }
+
+  nav ul li a{
+  padding: 0px 3px;
+  margin: 0px 3px;
+  }
+
+  .about h1 {
+    font-size: 20px;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    width: auto;
+  }
+
+  .about-column.slider {
+    width: auto;
+    height: auto;
+    margin: auto;
+  }
+  .image-slide{
+    width: 250px;
+    height: 250px;
+  }
+
+  .about-column{
+    width: auto;
+    margin: 0px;
+  }
+  .about-column h2 {
+    font-size: 30px;
+  }
+
+  .about-column h3 {
+    font-size: 20px;
+  }
+
+  .icon-resume {
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    padding: 5px 20px;
+  }
+
+  .contact h1 {
+    font-size: 30px;
+  }
+
+  .contact-form-header h2 {
+    font-size: 30px;
+  }
+
+  .contact-form{
+    margin: 0px 50px;
+   padding: 16px 16px;
+   width: 80%;
+  }
+}
+
+@media screen and (max-width:421px) {
+  .navbar .logo{
+    margin: 6px 8px;
+    padding: 10px 3px;
+  }
+  nav ul {
+    margin: 10px 10px;
+    padding: 10px 10px;
+    text-align: left;
+  }
+
+  nav ul li a{
+  padding: 0px 2.5px;
+  margin: 0px 2.5px;;
+  }
+
+  .home-column {
+    width: auto;
+    margin-top: 150px;
+  }
+
+  .about h1 {
+    font-size: 20px;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    width: auto;
+  }
+
+  .about-column.slider {
+    width: auto;
+    height: auto;
+    margin: auto;
+  }
+  .image-slide{
+    width: 250px;
+    height: 250px;
+  }
+
+  .about-column{
+    width: auto;
+    margin: 0px;
+  }
+  .about-column h2 {
+    font-size: 30px;
+  }
+
+  .about-column h3 {
+    font-size: 20px;
+  }
+
+  .icon-resume {
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    padding: 5px 20px;
+  }
+
+
+  .contact h1 {
+    font-size: 20px;
+    width: auto;
+  }
+
+  .contact-form-header{
+    margin-top: 0px;
+    padding: 0px;
+  }
+
+  .contact-form-header h2 {
+    font-size: 17px;
+    margin: 0px;
+    width: auto;
+  }
+
+  .contact-form{
+    margin: 0px 25px;
+    padding: 8px 8px;
+    width: 60%;
+  }
+
+  .contact-form input, .contact-form textarea {
+    font-size: 15px;
+  }
+
+  .contact button {
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    padding: 5px 20px;
+  }
+}
+
+@media screen and (max-width:280px) {
+
+  .navbar .logo{
+    margin: 6px 10px;
+    padding: 10px 5px;
+  }
+  nav ul {
+    margin: 10px 10px;
+    padding: 10px 10px;
+    text-align: left;
+  }
+
+  nav ul li a{
+  padding: 0px 1.5px;
+  margin: 0px 1.5px;
+  border-right: 0.5px solid grey;
+  }
+
+  .home-column {
+    width: auto;
+    margin-top: 150px;
+  }
+
+  .about h1 {
+    font-size: 20px;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    width: auto;
+  }
+
+  .about-column.slider {
+    width: 0px;
+    height: 0px;
+    margin: 0px;
+  }
+  .image-slide{
+    width: 0px;
+    height: 0px;
+  }
+
+  .about-column{
+    margin: 0px;
+  }
+  .about-column h2 {
+    font-size: 30px;
+  }
+
+  .about-column h3 {
+    font-size: 20px;
+  }
+
+  .icon-resume {
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    padding: 5px 20px;
+  }
+
+  .contact h1 {
+    font-size: 20px;
+    width: auto;
+  }
+
+  .contact-form-header{
+    margin-top: 0px;
+    padding: 0px;
+  }
+
+  .contact-form-header h2 {
+    font-size: 17px;
+    margin: 0px;
+    width: auto;
+  }
+
+  .contact-form{
+    margin: 0px 25px;
+    padding: 8px 8px;
+    width: 60%;
+  }
+
+  .contact-form input, .contact-form textarea {
+    font-size: 15px;
+  }
+
+  .contact button {
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    padding: 5px 20px;
+  }
 }
