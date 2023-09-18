@@ -16,12 +16,20 @@ const ProfilePicSlider = ({ images }) => {
     return () => clearInterval(intervalId);
   }, [images]);
 
+  const imgStyle = {
+    width: '500px',
+    height: '500px',
+    border: '2px solid #ccc',
+    borderRadius: '10px',
+  };
+
   return (
     <div className="image-slider">
       <img
         src={images[currentIndex]}
         alt="sohai"
         className="image-slide"
+        style={imgStyle}
       />
     </div>
   );

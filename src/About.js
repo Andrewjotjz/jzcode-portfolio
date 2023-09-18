@@ -1,8 +1,8 @@
 import { FaFacebook, FaDev, FaGithub, FaLinkedin, FaSquareInstagram  } from 'react-icons/fa6';
 import ProfilePicSlider from './ProfilePicSlider';
 import profilePic1 from './images1.jpg';
-import profilePic2 from './images2.jpg';
-import profilePic3 from './images3.jpg';
+import profilePic2 from './images1.jpg';
+import profilePic3 from './images1.jpg';
 
 const About = () => {
 
@@ -40,7 +40,7 @@ const About = () => {
                     <a className="icon-instagram" href='https://www.instagram.com/andrewjotjz/'><FaSquareInstagram /></a>
                     <a className="icon-dev" href='https://dev.to/andrewjotjz'><FaDev /></a>
                 </div>
-                <a className="icon-resume" href='https://drive.google.com/file/d/10vMeBdt9ehsRfjgpjMpFH4b97Pqj4qb7/view?usp=sharing'>Résumé</a>
+                <a className="icon-resume" href='https://drive.google.com/file/d/1ds3kqmDJ3_lrcMp7A5oMKkUflY6hAeWw/view?usp=sharing'>Résumé</a>
             </div>
             
             

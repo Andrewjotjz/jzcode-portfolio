@@ -1,6 +1,7 @@
-import image1 from './images1.jpg';
-import image2 from './images2.jpg';
-import image3 from './images3.jpg';
+import image1 from './portfolio-website.jpg';
+import image2 from './job-hunt-tracker.jpg';
+import image3 from './patient-name-sorting.jpg';
+import image4 from './inventory-mng-system.jpg';
 
 const Portfolio = () => {
     return (
@@ -27,8 +28,8 @@ const Portfolio = () => {
                 </div>
                 <div className='grid-item'>
                     <div className="item-content">
-                        <img src={image1} alt="portfolio4" />
-                        <label>Journey to Web Dev Pro</label>
+                        <img src={image4} alt="portfolio4" />
+                        <label>Inventory Management System</label>
                     </div>
                 </div>
             </div>

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
-import profilePic from './images3.jpg';
+import profilePic from './images1.jpg';
 
 const Home = () => {
 

@@ -156,7 +156,10 @@ main a:hover {
 }
 
 .home-column img {
-  border-radius: 360px;
+  width: 400px;
+  height: 500px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
 }
 
 .about {
@@ -312,6 +315,7 @@ main a:hover {
   grid-template-rows: repeat(2, 1fr);
   gap: 10px;
   width: 700px; 
+  height: 500px;
   margin: 0 auto;           
 }
 
@@ -724,6 +728,7 @@ main a:hover {
     width: 0px;
     height: 0px;
     margin: 0px;
+    
   }
   .image-slide{
     width: 0px;
