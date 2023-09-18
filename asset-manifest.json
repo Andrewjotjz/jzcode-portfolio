@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/jzcode-portfolio/static/css/main.dcedaa9c.css",
-    "main.js": "/jzcode-portfolio/static/js/main.32ee663d.js",
+    "main.css": "/jzcode-portfolio/static/css/main.69fbba89.css",
+    "main.js": "/jzcode-portfolio/static/js/main.d48a82d7.js",
     "static/js/787.eb6a8997.chunk.js": "/jzcode-portfolio/static/js/787.eb6a8997.chunk.js",
-    "static/media/images1.jpg": "/jzcode-portfolio/static/media/images1.ac2043d2d81eeff400ed.jpg",
-    "static/media/images2.jpg": "/jzcode-portfolio/static/media/images2.a4e4f9057a4d5b49d7c7.jpg",
-    "static/media/images3.jpg": "/jzcode-portfolio/static/media/images3.225f0a45d30d548126de.jpg",
+    "static/media/portfolio-website.jpg": "/jzcode-portfolio/static/media/portfolio-website.c1b9e2c6b1c0b09aac2b.jpg",
+    "static/media/patient-name-sorting.jpg": "/jzcode-portfolio/static/media/patient-name-sorting.e0984b145c1e75ad25dc.jpg",
+    "static/media/job-hunt-tracker.jpg": "/jzcode-portfolio/static/media/job-hunt-tracker.92a186168fa90057c243.jpg",
+    "static/media/inventory-mng-system.jpg": "/jzcode-portfolio/static/media/inventory-mng-system.981e9af80dbc14335c3b.jpg",
+    "static/media/images1.jpg": "/jzcode-portfolio/static/media/images1.cc9d3ea9dff0d9daa01b.jpg",
     "index.html": "/jzcode-portfolio/index.html",
-    "main.dcedaa9c.css.map": "/jzcode-portfolio/static/css/main.dcedaa9c.css.map",
-    "main.32ee663d.js.map": "/jzcode-portfolio/static/js/main.32ee663d.js.map",
+    "main.69fbba89.css.map": "/jzcode-portfolio/static/css/main.69fbba89.css.map",
+    "main.d48a82d7.js.map": "/jzcode-portfolio/static/js/main.d48a82d7.js.map",
     "787.eb6a8997.chunk.js.map": "/jzcode-portfolio/static/js/787.eb6a8997.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcedaa9c.css",
-    "static/js/main.32ee663d.js"
+    "static/css/main.69fbba89.css",
+    "static/js/main.d48a82d7.js"
   ]
 }
